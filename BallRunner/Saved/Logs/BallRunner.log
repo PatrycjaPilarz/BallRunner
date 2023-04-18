@@ -1,4 +1,4 @@
-﻿Log file open, 04/15/23 20:18:33
+﻿Log file open, 04/18/23 22:26:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BallRunner
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.537528
+LogStats: Stats thread started at 0.524623
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -150,1139 +150,373 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.04.15-18.18.33:708][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.15-18.18.33:708][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.04.15-18.18.33:717][  0]LogHAL: Display: Platform has ~ 16 GB [17114869760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.04.15-18.18.33:717][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2023.04.15-18.18.33:717][  0]LogInit: Going up to parent DeviceProfile []
-[2023.04.15-18.18.33:718][  0]LogInit: Computer: MICHAŁ
-[2023.04.15-18.18.33:718][  0]LogInit: User: PC
-[2023.04.15-18.18.33:718][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.04.15-18.18.33:718][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.04.15-18.18.33:718][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2023.04.15-18.18.33:718][  0]LogMemory: Platform Memory Stats for Windows
-[2023.04.15-18.18.33:718][  0]LogMemory: Process Physical Memory: 103.60 MB used, 103.61 MB peak
-[2023.04.15-18.18.33:718][  0]LogMemory: Process Virtual Memory: 85.94 MB used, 85.94 MB peak
-[2023.04.15-18.18.33:718][  0]LogMemory: Physical Memory: 9476.94 MB used,  6845.07 MB free, 16322.01 MB total
-[2023.04.15-18.18.33:718][  0]LogMemory: Virtual Memory: 4641.46 MB used,  6845.07 MB free, 134217728.00 MB total
-[2023.04.15-18.18.33:747][  0]LogInit: Using OS detected language (pl-PL).
-[2023.04.15-18.18.33:747][  0]LogInit: Using OS detected locale (pl-PL).
-[2023.04.15-18.18.33:748][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2023.04.15-18.18.33:749][  0]LogStreaming: Display: Took  0.001s to InitEngineTextLocalization.
-[2023.04.15-18.18.33:749][  0]LogInit: Setting process to per monitor DPI aware
-[2023.04.15-18.18.33:768][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.04.15-18.18.33:768][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.04.15-18.18.33:901][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.15-18.18.33:901][  0]LogD3D11RHI: D3D11 adapters:
-[2023.04.15-18.18.34:026][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
-[2023.04.15-18.18.34:026][  0]LogD3D11RHI:       12129/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.04.15-18.18.34:027][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.04.15-18.18.34:027][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.04.15-18.18.34:027][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.04.15-18.18.34:032][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.04.15-18.18.34:032][  0]LogD3D11RHI:     GPU DeviceId: 0x2503 (for the marketing name, search the web for "GPU Device Id")
-[2023.04.15-18.18.34:032][  0]LogWindows: EnumDisplayDevices:
-[2023.04.15-18.18.34:032][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
-[2023.04.15-18.18.34:033][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
-[2023.04.15-18.18.34:033][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.15-18.18.34:033][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.15-18.18.34:033][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.04.15-18.18.34:033][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
-[2023.04.15-18.18.34:033][  0]LogD3D11RHI:   Driver Version: 531.29 (internal:31.0.15.3129, unified:531.29)
-[2023.04.15-18.18.34:033][  0]LogD3D11RHI:      Driver Date: 3-8-2023
-[2023.04.15-18.18.34:033][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
-[2023.04.15-18.18.34:103][  0]LogD3D11RHI: Async texture creation enabled
-[2023.04.15-18.18.34:124][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2023.04.15-18.18.34:126][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Intermediate/Shaders/WorkingDirectory/21560/).
-[2023.04.15-18.18.34:126][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/5AAE56C9462C4ED72E43F4A9A9965EFF/'.
-[2023.04.15-18.18.34:309][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.04.15-18.18.34:318][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.04.15-18.18.34:327][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.04.15-18.18.34:336][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.04.15-18.18.34:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.04.15-18.18.34:355][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.04.15-18.18.34:364][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.04.15-18.18.34:373][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.04.15-18.18.34:377][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.15-18.18.34:438][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.04.15-18.18.34:489][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.15-18.18.34:489][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.15-18.18.34:507][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.15-18.18.34:507][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.15-18.18.34:515][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.04.15-18.18.34:524][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.04.15-18.18.34:532][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.04.15-18.18.34:541][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.04.15-18.18.34:546][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2023.04.15-18.18.34:546][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.04.15-18.18.34:574][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.04.15-18.18.34:574][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.04.15-18.18.34:574][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.04.15-18.18.35:086][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.04.15-18.18.35:124][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.15-18.18.35:124][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2023.04.15-18.18.35:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.04.15-18.18.35:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.04.15-18.18.35:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.04.15-18.18.35:124][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.04.15-18.18.35:135][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.04.15-18.18.35:147][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.04.15-18.18.35:147][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.04.15-18.18.35:147][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.04.15-18.18.35:160][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.04.15-18.18.35:161][  0]LogSlate: Using FreeType 2.6.0
-[2023.04.15-18.18.35:161][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.04.15-18.18.35:218][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
-[2023.04.15-18.18.35:436][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.15-18.18.35:519][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.04.15-18.18.35:521][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.04.15-18.18.35:521][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.04.15-18.18.35:521][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.04.15-18.18.35:521][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.04.15-18.18.35:530][  0]LogNetVersion: BallRunner 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 346235534)
-[2023.04.15-18.18.35:872][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.088529 seconds
-[2023.04.15-18.18.35:876][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2023.04.15-18.18.35:876][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2023.04.15-18.18.35:876][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.04.15-18.18.36:431][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.04.15-18.18.36:444][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.04.15-18.18.36:555][  0]SourceControl: Source control is disabled
-[2023.04.15-18.18.36:555][  0]SourceControl: Source control is disabled
-[2023.04.15-18.18.36:555][  0]SourceControl: Source control is disabled
-[2023.04.15-18.18.36:556][  0]SourceControl: Source control is disabled
-[2023.04.15-18.18.36:688][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.04.15-18.18.36:762][  0]LogOcInput: OculusInput pre-init called
-[2023.04.15-18.18.36:805][  0]LogEngine: Initializing Engine...
-[2023.04.15-18.18.36:805][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.15-18.18.36:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.15-18.18.36:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.15-18.18.36:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.15-18.18.36:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.15-18.18.36:941][  0]LogInit: Initializing FReadOnlyCVARCache
-[2023.04.15-18.18.36:946][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.04.15-18.18.36:981][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.04.15-18.18.36:998][  0]LogInit: FAudioDevice initialized.
-[2023.04.15-18.18.36:998][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2023.04.15-18.18.37:030][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.15-18.18.37:035][  0]LogInit: Texture streaming: Enabled
-[2023.04.15-18.18.37:043][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.04.15-18.18.37:050][  0]LogInit: Transaction tracking system initialized
-[2023.04.15-18.18.37:059][  0]BlueprintLog: New page: Editor Load
-[2023.04.15-18.18.37:094][  0]LocalizationService: Localization service is disabled
-[2023.04.15-18.18.37:259][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.04.15-18.18.37:259][  0]LogCook: Display: Mobile HDR setting 1
-[2023.04.15-18.18.37:259][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.04.15-18.18.37:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.15-18.18.37:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.15-18.18.37:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.15-18.18.37:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.15-18.18.37:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/' took 0.01s
-[2023.04.15-18.18.37:321][  0]SourceControl: Source control is disabled
-[2023.04.15-18.18.37:321][  0]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.04.15-18.18.37:321][  0]LightingResults: New page: Lighting Build
-[2023.04.15-18.18.37:322][  0]MapCheck: New page: Map Check
-[2023.04.15-18.18.37:322][  0]LightingResults: New page: Lighting Build
-[2023.04.15-18.18.37:643][  0]LogAIModule: Creating AISystem for world Level1
-[2023.04.15-18.18.37:654][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.04.15-18.18.37:672][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.04.15-18.18.37:707][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34,28ms to complete.
-[2023.04.15-18.18.37:707][  0]LogFileHelpers: Loading map 'Level1' took 0.386
-[2023.04.15-18.18.37:794][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.15-18.18.37:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.15-18.18.37:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.15-18.18.37:810][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.15-18.18.37:814][  0]LogCollectionManager: Loaded 0 collections in 0.000596 seconds
-[2023.04.15-18.18.37:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Collections/' took 0.01s
-[2023.04.15-18.18.37:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Developers/PC/Collections/' took 0.01s
-[2023.04.15-18.18.37:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Collections/' took 0.01s
-[2023.04.15-18.18.37:855][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.04.15-18.18.37:861][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2572 classes and 603 folders.
-[2023.04.15-18.18.37:864][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.15-18.18.38:013][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.15-18.18.38:029][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2023.04.15-18.18.38:079][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.04.15-18.18.38:080][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.04.15-18.18.38:087][  0]LogSlate: Took 0.004082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.04.15-18.18.38:147][  0]LogRenderer: Reallocating scene render targets to support 1304x700 Format 10 NumSamples 1 (Frame:1).
-[2023.04.15-18.18.38:232][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.15-18.18.38:232][  0]LogLoad: (Engine Initialization) Total time: 6.14 seconds
-[2023.04.15-18.18.38:232][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.04.15-18.18.38:263][  0]LogAssetRegistry: Asset discovery search completed in 3.0676 seconds
-[2023.04.15-18.18.38:265][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.04.15-18.18.38:265][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2023.04.15-18.18.38:266][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.04.15-18.18.38:284][  0]LogSlate: Took 0.001270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.15-18.18.39:593][  4]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.15-18.22.44:159][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal_C' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:Crystal TOP ' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:Crystal BOTTOM' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.SKEL_Crystal_C' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal_C:Crystal TOP ' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal_C:Crystal BOTTOM' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:033][857]LogMetaData: Removing '/Game/Blueprints/Actors/Collectables/Crystal.Crystal_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Crystal.PackageMetaData'
-[2023.04.15-18.23.50:062][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/Collectables/Crystal" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/Collectables/Crystal.uasset" SILENT=true
-[2023.04.15-18.23.50:075][857]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/CrystalB92A1772450D325E75E96A9AEBD5752A.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/Collectables/Crystal.uasset'
-[2023.04.15-18.23.50:080][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Crystal" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Crystal.uasset" SILENT=true
-[2023.04.15-18.23.50:094][857]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/CrystalFC1BA8454DFC98F3A1A52EA89B1F1722.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Crystal.uasset'
-[2023.04.15-18.23.53:408][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:408][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger_C' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:BndEvt__Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:Trigger' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.SKEL_BPLevelRestartTrigger_C' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger_C:Trigger' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:409][240]LogMetaData: Removing '/Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BPLevelRestartTrigger.PackageMetaData'
-[2023.04.15-18.23.53:436][240]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/BPLevelRestartTriggerFA9C6A2746C22D35157AC89EDE63B4E7.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.uasset'
-[2023.04.15-18.23.53:441][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPLevelRestartTrigger" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/BPLevelRestartTrigger.uasset" SILENT=true
-[2023.04.15-18.23.53:447][240]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/BPLevelRestartTrigger5B97EB1F4CEDE8D3EFBDD2B54FF236FF.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/BPLevelRestartTrigger.uasset'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:InpAxisEvt_Move Forwards/Backwards_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:InpAxisEvt_Move Right/Left_K2Node_InputAxisEvent_1' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:NewVar_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:Acceleration Multiplier' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:SpringArm' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:Camera' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:Mesh' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.SKEL_Player_C' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:NewVar_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:Acceleration Multiplier' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:SpringArm' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:Camera' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:Mesh' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:554][680]LogMetaData: Removing '/Game/Blueprints/Actors/PlayerPawn/Player.Player_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
-[2023.04.15-18.25.00:579][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/PlayerPawn/Player" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/PlayerPawn/Player.uasset" SILENT=true
-[2023.04.15-18.25.00:599][680]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Player363678984CD7D26A5ECB979697B73167.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/PlayerPawn/Player.uasset'
-[2023.04.15-18.25.00:704][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPGameMode" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/BPGameMode.uasset" SILENT=true
-[2023.04.15-18.25.00:713][680]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/BPGameModeE12765474B9081B1FC8A1D9FF443789C.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/BPGameMode.uasset'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.BPGameMode_C' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.BPGameMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.BPGameMode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.BPGameMode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.SKEL_BPGameMode_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.SKEL_BPGameMode_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.SKEL_BPGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.SKEL_BPGameMode_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.SKEL_BPGameMode_C' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:150][969]LogMetaData: Removing '/Game/Blueprints/Actors/GameMods/BPGameMode.BPGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/BPGameMode.PackageMetaData'
-[2023.04.15-18.25.03:166][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/GameMods/BPGameMode" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/GameMods/BPGameMode.uasset" SILENT=true
-[2023.04.15-18.25.03:172][969]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/BPGameMode0EFA61B14864736D04BCD1BB33CC5C8D.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/Actors/GameMods/BPGameMode.uasset'
-[2023.04.15-18.25.03:177][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPGameMode" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/BPGameMode.uasset" SILENT=true
-[2023.04.15-18.25.03:182][969]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/BPGameModeFC3795F14F232AD4A57A94A896BB6437.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Blueprints/BPGameMode.uasset'
-[2023.04.15-18.25.17:725][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.25.49:157][302]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/M_Crystal.M_Crystal
-[2023.04.15-18.25.49:159][302]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.25.49:448][302]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.25.49:471][302]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.25.49:502][302]LogSlate: Took 0.005489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.04.15-18.25.50:251][374]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.25.50:279][377]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.25.50:287][378]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.25.50:287][378]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.25.50:296][379]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.25.50:313][381]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.25.50:313][381]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.25.50:324][382]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.25.50:385][389]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.25.50:507][398]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.25.50:561][402]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.25.50:671][411]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.25.50:693][413]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.25.50:923][439]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.25.50:923][439]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.25.50:924][439]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.25.50:924][439]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.28.38:271][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2023.04.15-18.28.38:365][715]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Level1_Auto1B49FC78947D31AEB4AF596AF71FC01A7.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
-[2023.04.15-18.28.38:368][715]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.116
-[2023.04.15-18.28.38:368][715]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
-[2023.04.15-18.28.38:369][715]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_Crystal] ([1] browsable assets)...
-[2023.04.15-18.28.38:377][715]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_Crystal.M_Crystal]
-[2023.04.15-18.28.38:377][715]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Crystal]
-[2023.04.15-18.28.38:377][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Crystal" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Materials/M_Crystal_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.04.15-18.28.38:387][715]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/M_Crystal_Auto14A8AE66441358B63A3060EA6F79AF035.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Materials/M_Crystal_Auto1.uasset'
-[2023.04.15-18.28.38:388][715]LogFileHelpers: Auto-saving content packages took 0.020
-[2023.04.15-18.29.15:367][776]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.29.15:379][776]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.29.15:379][776]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.29.16:046][848]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.29.16:054][849]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.29.16:063][850]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.29.16:071][851]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.29.16:071][851]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.29.16:071][851]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.29.16:096][854]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.29.16:096][854]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.29.16:179][863]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.29.16:294][871]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.29.16:327][873]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.29.16:446][882]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.29.16:470][884]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.29.16:470][884]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.29.16:493][886]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.29.16:752][914]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.29.16:752][914]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.29.16:752][914]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.29.16:752][914]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.29.48:831][761]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.29.48:844][761]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.29.48:857][761]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.29.49:523][833]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.29.49:554][836]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.29.49:562][837]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.29.49:571][838]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.29.49:571][838]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.29.49:571][838]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.29.49:579][839]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.29.49:579][839]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.29.49:652][847]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.29.49:794][858]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.29.49:834][861]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.29.49:978][873]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.29.49:988][874]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.29.49:988][874]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.29.49:999][875]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.29.50:269][906]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.29.50:269][906]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.29.50:269][906]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.29.50:269][906]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.30.07:068][918]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.07:081][918]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.07:081][918]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.07:093][918]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.07:102][918]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.07:102][918]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.07:102][918]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.07:102][918]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.07:102][918]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.07:102][918]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.07:280][934]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.07:288][935]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.07:299][936]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.07:299][936]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.07:306][937]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.07:316][938]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.07:325][939]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.07:358][943]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.07:397][947]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.07:424][950]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.07:424][950]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.07:528][959]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.07:601][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.07:617][965]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.07:630][965]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.07:641][965]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.07:664][967]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.30.07:674][968]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.07:713][972]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.07:739][975]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.07:787][979]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.07:813][981]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.07:890][987]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.07:890][987]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.07:921][990]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.07:931][991]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.07:939][992]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.07:939][992]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.07:952][993]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.07:972][995]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.08:037][  1]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.08:045][  2]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.08:057][  3]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.08:079][  5]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.08:149][ 11]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.08:270][ 21]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.08:284][ 22]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.08:303][ 23]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.08:319][ 23]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.08:333][ 23]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.08:345][ 23]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.08:365][ 25]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.30.08:418][ 30]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.08:443][ 32]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.08:469][ 34]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.08:532][ 39]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.08:584][ 43]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.08:609][ 45]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.08:630][ 47]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.08:639][ 48]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.08:652][ 49]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.08:652][ 49]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.08:729][ 57]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.08:729][ 57]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.08:729][ 57]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.08:800][ 65]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.08:800][ 65]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.08:800][ 65]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.08:810][ 66]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.08:939][ 77]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.08:966][ 79]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.09:028][ 84]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.09:090][ 89]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.09:313][113]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.30.09:313][113]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.30.09:313][113]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.30.09:313][113]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.30.14:179][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.14:193][696]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.14:193][696]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.14:206][696]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.14:215][696]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.14:216][696]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.14:216][696]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.14:216][696]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.14:216][696]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.14:216][696]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.14:388][710]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.14:401][711]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.14:413][712]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.14:413][712]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.14:434][714]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.14:445][715]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.14:445][715]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.14:465][717]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.14:509][721]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.14:540][724]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.14:553][725]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.14:656][732]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.14:754][739]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.14:781][741]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.14:826][745]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.14:919][755]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.14:933][755]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.14:933][755]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.14:948][755]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.14:959][755]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.14:960][755]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.14:960][755]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.14:997][759]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.15:028][762]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.15:101][767]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.15:148][771]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.15:169][773]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.15:169][773]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.15:180][774]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.15:180][774]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.15:190][775]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.15:209][777]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.15:239][780]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.15:282][784]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.15:291][785]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.15:325][788]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.15:408][794]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.15:531][803]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.15:568][806]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.15:581][807]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.18:402][143]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.18:416][143]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.18:416][143]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.18:429][143]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.18:438][143]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.18:438][143]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.18:438][143]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.18:438][143]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.18:438][143]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.18:438][143]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.18:615][158]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.18:615][158]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.18:627][159]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.18:636][160]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.18:656][162]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.18:656][162]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.18:666][163]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.18:696][166]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.18:727][169]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.18:766][173]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.18:778][174]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.18:951][187]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.19:034][192]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.19:084][196]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.19:105][198]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.19:354][224]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.30.19:354][224]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.30.19:354][224]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.30.19:354][224]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.30.20:859][404]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.20:873][404]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.20:873][404]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.20:885][404]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.20:894][404]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.20:902][405]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.20:902][405]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.20:902][405]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.20:902][405]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.20:902][405]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.21:063][418]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.21:085][420]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.21:094][421]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.21:104][422]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.21:114][423]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.21:114][423]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.21:122][424]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.21:165][428]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.21:209][432]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.21:210][432]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.21:231][434]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.21:321][441]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.21:429][450]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.21:471][454]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.21:471][454]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.22:984][634]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.22:997][634]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.22:997][634]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.23:010][634]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.23:020][634]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.23:020][634]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.23:020][634]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.23:020][634]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.23:020][634]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.23:020][634]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.23:208][650]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.23:223][651]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.23:223][651]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.23:223][651]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.23:246][653]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.23:255][654]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.23:255][654]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.23:292][658]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.23:345][662]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.23:366][664]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.23:381][665]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.23:493][673]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.23:576][679]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.23:591][680]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.23:653][685]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.23:882][711]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.30.23:882][711]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.30.23:882][711]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.30.23:882][711]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.30.45:338][250]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.45:353][250]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.45:355][250]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.45:387][250]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.45:415][250]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.45:431][250]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.45:457][250]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.45:466][250]LogSlate: Window 'Color Picker' being destroyed
-[2023.04.15-18.30.46:010][311]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.30.46:036][314]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.30.46:036][314]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.46:045][315]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.46:052][316]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.46:062][317]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.46:070][318]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.46:078][319]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.46:247][334]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.46:247][334]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.46:255][335]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.46:255][335]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.46:264][336]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.46:264][336]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.46:272][337]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.46:297][340]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.46:353][346]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.46:394][350]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.46:406][351]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.46:482][357]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.46:594][366]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.46:639][370]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.46:661][372]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.46:910][400]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.30.46:910][400]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.30.46:910][400]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.30.46:910][400]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.30.54:706][334]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.54:721][334]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.54:735][334]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.54:878][344]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.54:898][346]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.54:898][346]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.54:907][347]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.54:915][348]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.54:936][350]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.54:945][351]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.54:945][351]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.55:006][357]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.55:133][365]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.55:164][367]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.55:285][376]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.55:297][377]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.55:306][378]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.55:337][381]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.55:606][400]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.55:620][400]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.55:620][400]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.55:771][410]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.55:804][413]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.55:804][413]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.55:812][414]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.55:812][414]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.55:820][415]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.55:829][416]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.55:838][417]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.55:888][423]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.55:984][431]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.56:008][431]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.56:024][431]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.30.56:050][432]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.30.56:189][442]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.56:189][442]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.56:201][443]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.56:226][445]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.56:226][445]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.56:247][447]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.56:255][448]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.56:313][453]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.56:356][456]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.56:366][457]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.56:374][458]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.56:385][459]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.56:385][459]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.56:394][460]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.56:394][460]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.56:592][475]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.56:623][478]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.56:667][482]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.56:734][489]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.56:752][491]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.56:772][493]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.57:409][568]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.57:422][568]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.57:422][568]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.57:578][578]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.57:587][579]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.57:608][581]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.57:617][582]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.57:617][582]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.57:629][583]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.57:629][583]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.57:650][585]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.57:779][597]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.57:882][604]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.57:909][606]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.58:039][616]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.58:052][617]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.58:073][619]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.58:095][621]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.30.58:333][647]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.30.58:333][647]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.30.58:333][647]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.30.58:333][647]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.30.59:204][751]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.59:218][751]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.59:218][751]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.30.59:367][762]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.30.59:386][764]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.30.59:396][765]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.30.59:396][765]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.30.59:405][766]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.30.59:425][768]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.30.59:434][769]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.30.59:434][769]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.30.59:490][775]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.30.59:624][785]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.30.59:651][787]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.30.59:784][798]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.30.59:784][798]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.30.59:817][801]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.30.59:838][803]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.31.00:067][827]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.31.00:067][827]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.31.00:067][827]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.31.00:067][827]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.31.01:471][916]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.01:595][916]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.01:595][916]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.31.01:669][920]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.01:669][920]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.01:679][921]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.31.01:686][922]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.31.01:696][923]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.31.01:696][923]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.31.01:714][925]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.31.01:714][925]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.31.01:794][934]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.31.01:887][941]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.31.01:906][942]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.31.01:926][942]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.31.01:929][942]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.31.02:016][947]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.31.02:062][951]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.31.02:062][951]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.31.02:072][952]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.31.02:103][955]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.31.02:103][955]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.31.02:202][963]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.31.02:217][964]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.31.02:237][966]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.02:237][966]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.02:255][968]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.31.02:263][969]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.31.02:263][969]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.31.02:272][970]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.31.02:332][976]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.31.02:350][978]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.31.02:371][980]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.31.02:477][988]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.31.02:572][995]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.31.02:623][999]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.31.02:667][  3]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.31.02:667][  3]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.31.02:676][  4]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.31.02:931][ 30]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.31.02:931][ 30]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.31.02:931][ 30]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.31.02:931][ 30]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.31.04:117][171]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.31.04:129][171]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.04:143][171]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.04:154][171]LogSlate: Window 'Color Picker' being destroyed
-[2023.04.15-18.31.04:301][184]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.04:310][185]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.04:319][186]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.31.04:327][187]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.31.04:327][187]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.31.04:346][189]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.31.04:355][190]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.31.04:355][190]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.31.04:445][199]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.31.04:568][208]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.31.04:594][210]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.31.04:706][220]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.31.04:718][221]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.31.04:737][223]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.31.04:756][225]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.31.04:998][252]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.31.04:998][252]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.31.04:998][252]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.31.04:998][252]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.31.18:035][811]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.18:066][812]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.18:203][824]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.31.18:231][827]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.31.18:238][828]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.31.18:238][828]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.31.18:238][828]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.31.18:264][831]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.31.18:264][831]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.31.18:264][831]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.31.18:334][839]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.31.18:468][849]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.31.18:501][851]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.31.18:643][862]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.31.18:643][862]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.31.19:472][960]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.31.19:473][960]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.31.19:473][960]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.31.19:473][960]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.31.39:549][347]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.39:563][347]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.39:563][347]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2023.04.15-18.31.40:259][420]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.40:288][423]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.40:297][425]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.31.40:303][426]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.31.40:303][426]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.31.40:303][426]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.31.40:303][426]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.31.40:314][427]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.31.40:385][435]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.31.40:534][448]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.31.40:546][449]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.31.40:659][460]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.31.40:670][461]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.31.40:680][462]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.31.40:688][463]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.31.40:822][478]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.31.40:832][478]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.31.40:832][478]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.31.40:832][478]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.31.40:832][478]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.31.40:832][478]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.31.40:871][481]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.31.40:946][487]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.31.40:963][488]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.31.41:015][492]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.31.41:026][493]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.31.41:035][494]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.31.41:057][496]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.31.41:057][496]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.31.41:068][497]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.31.41:097][500]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.31.41:105][501]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.31.41:171][508]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.31.41:291][517]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.31.41:342][521]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.31.41:421][528]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.31.41:473][533]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.31.42:024][550]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.31.42:024][550]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.31.42:024][550]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.31.42:024][550]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.32.04:170][621]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.04:181][621]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.32.04:201][623]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.32.04:872][699]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.32.04:891][701]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.32.04:891][701]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.32.04:901][702]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.32.04:909][703]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.32.04:909][703]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.32.04:917][704]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.32.04:925][705]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.32.04:994][713]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.32.05:118][723]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.32.05:147][725]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.32.05:276][736]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.32.05:300][738]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.32.05:533][765]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.32.05:533][765]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.32.05:533][765]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.32.05:533][765]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.32.11:896][528]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.11:907][528]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.32.11:922][529]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.32.12:072][543]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.32.12:100][546]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.32.12:107][547]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.32.12:107][547]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.32.12:118][548]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.32.12:126][549]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.32.12:126][549]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.32.12:135][550]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.32.12:196][557]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.32.12:336][568]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.32.12:366][570]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.32.12:497][581]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.32.12:506][582]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.32.12:742][609]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.32.12:742][609]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.32.12:742][609]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.32.12:742][609]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.32.19:077][368]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.19:089][368]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.32.19:103][369]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.32.19:251][383]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.32.19:285][387]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.32.19:285][387]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.32.19:285][387]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.32.19:285][387]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.32.19:303][389]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.32.19:312][390]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.32.19:312][390]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.32.19:380][398]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.32.19:523][409]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.32.19:538][410]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.32.19:671][421]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.32.19:692][423]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.32.19:925][450]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.32.19:925][450]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.32.19:925][450]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.32.19:925][450]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.32.23:536][883]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.23:548][883]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.32.23:563][884]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.32.23:712][898]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.32.23:731][900]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.32.23:739][901]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.32.23:748][902]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.32.23:748][902]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.32.23:757][903]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.32.23:765][904]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.32.23:773][905]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.32.23:835][912]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.32.23:965][922]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.32.24:006][925]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.32.24:119][935]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.32.24:131][936]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.32.24:377][964]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.32.24:377][964]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.32.24:377][964]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.32.24:377][964]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.32.38:975][400]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 13
-[2023.04.15-18.32.39:122][400]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.32.39:122][400]LogMaterialEditor: Applying material M_Crystal
-[2023.04.15-18.32.39:636][400]LogShaderCompilers: Display: Shaders left to compile 11
-[2023.04.15-18.32.39:636][400]LogShaderCompilers: Display: Shaders left to compile 10
-[2023.04.15-18.32.39:636][400]LogShaderCompilers: Display: Shaders left to compile 9
-[2023.04.15-18.32.39:636][400]LogShaderCompilers: Display: Shaders left to compile 8
-[2023.04.15-18.32.39:636][400]LogShaderCompilers: Display: Shaders left to compile 7
-[2023.04.15-18.32.39:637][400]LogShaderCompilers: Display: Shaders left to compile 6
-[2023.04.15-18.32.39:637][400]LogShaderCompilers: Display: Shaders left to compile 5
-[2023.04.15-18.32.39:637][400]LogShaderCompilers: Display: Shaders left to compile 4
-[2023.04.15-18.32.39:637][400]LogShaderCompilers: Display: Shaders left to compile 3
-[2023.04.15-18.32.39:637][400]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.32.39:637][400]LogShaderCompilers: Display: Shaders left to compile 1
-[2023.04.15-18.32.39:648][400]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 21
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 20
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 19
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 18
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 17
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 16
-[2023.04.15-18.32.39:674][400]LogShaderCompilers: Display: Shaders left to compile 15
-[2023.04.15-18.32.39:693][400]LogShaderCompilers: Display: Shaders left to compile 14
-[2023.04.15-18.32.39:693][400]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.39:709][400]LogMaterial: Display: Missing cached shader map for material M_Crystal, compiling. 
-[2023.04.15-18.32.39:749][400]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Crystal, compiling. 
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 36
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 35
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 34
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 33
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 32
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 31
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 30
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 29
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 28
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 27
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 26
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 25
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 24
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 23
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 22
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 12
-[2023.04.15-18.32.40:282][400]LogShaderCompilers: Display: Shaders left to compile 2
-[2023.04.15-18.32.40:285][400]TextureStreamingBuild: Display: Compiling optional shaders took 0.542 seconds.
-[2023.04.15-18.32.42:100][585]MaterialEditorStats: Base pass shader: 99 instructions
-[2023.04.15-18.32.42:100][585]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2023.04.15-18.32.42:100][585]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2023.04.15-18.32.42:100][585]MaterialEditorStats: Texture samplers: 3/16
-[2023.04.15-18.33.03:110][ 89]LogSlate: Window 'M_Crystal*' being destroyed
-[2023.04.15-18.33.10:388][961]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Collectables/Crystal.Crystal
-[2023.04.15-18.33.10:748][961]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2023.04.15-18.33.38:915][257]LogRenderer: Reallocating scene render targets to support 1304x900 Format 10 NumSamples 1 (Frame:1).
-[2023.04.15-18.33.44:948][973]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.34.22:696][192]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.34.33:224][317]LogSlate: Took 0.012142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.04.15-18.35.23:995][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.35.31:498][770]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.35.52:271][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.08:266][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.19:074][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.36.27:223][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.30:289][744]LogSlate: Window 'Color Picker' being destroyed
-[2023.04.15-18.36.31:324][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.35:073][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.45:009][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.50:138][997]LogSlate: Window 'Color Picker' being destroyed
-[2023.04.15-18.36.50:891][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.36.59:350][ 92]LogSlate: Window 'Color Picker' being destroyed
-[2023.04.15-18.37.00:245][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.38.39:304][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2023.04.15-18.38.39:429][214]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Level1_Auto2AD7BC2B14891C5033083F189850EA5C4.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
-[2023.04.15-18.38.39:431][214]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.155
-[2023.04.15-18.38.39:431][214]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
-[2023.04.15-18.38.39:433][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/Collectables/Crystal] ([1] browsable assets)...
-[2023.04.15-18.38.39:454][214]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Collectables/Crystal.Crystal]
-[2023.04.15-18.38.39:454][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Collectables/Crystal]
-[2023.04.15-18.38.39:469][214]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Crystal_Auto2BFBA76F6424225B4AE14F79E812DCC16.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/Actors/Collectables/Crystal_Auto2.uasset'
-[2023.04.15-18.38.39:471][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_Crystal] ([1] browsable assets)...
-[2023.04.15-18.38.39:487][214]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_Crystal.M_Crystal]
-[2023.04.15-18.38.39:487][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Crystal]
-[2023.04.15-18.38.39:487][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Crystal" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Materials/M_Crystal_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2023.04.15-18.38.39:493][214]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/M_Crystal_Auto224836CAB410AD43AB38EB88326764B9D.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Materials/M_Crystal_Auto2.uasset'
-[2023.04.15-18.38.39:494][214]LogFileHelpers: Auto-saving content packages took 0.061
-[2023.04.15-18.40.57:540][721]LogRenderer: Reallocating scene render targets to support 1412x900 Format 10 NumSamples 1 (Frame:63793).
-[2023.04.15-18.40.57:579][722]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:63795).
-[2023.04.15-18.40.57:591][723]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.41.08:149][959]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.41.08:874][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.41.08:941][ 54]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.15-18.41.08:949][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.15-18.41.08:949][ 54]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.15-18.41.08:950][ 54]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
-[2023.04.15-18.41.09:068][ 54]LogPlayLevel: PlayLevel: Blueprint regeneration took 119 ms (1 blueprints)
-[2023.04.15-18.41.09:094][ 54]PIE: New page: PIE session: Level1 (15 kwi 2023, 22:41:09)
-[2023.04.15-18.41.09:094][ 54]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.15-18.41.09:101][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007796s)
-[2023.04.15-18.41.09:102][ 54]LogAIModule: Creating AISystem for world Level1
-[2023.04.15-18.41.09:102][ 54]LogPlayLevel: PIE: World Init took: (0.000645s)
-[2023.04.15-18.41.09:102][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008555s)
-[2023.04.15-18.41.09:148][ 54]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.04.15-18.41.09:160][ 54]LogInit: FAudioDevice initialized.
-[2023.04.15-18.41.09:199][ 54]LogLoad: Game class is 'BPGameMode_C'
-[2023.04.15-18.41.09:211][ 54]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.15-20.41.09
-[2023.04.15-18.41.09:212][ 54]LogWorld: Bringing up level for play took: 0.002928
-[2023.04.15-18.41.09:231][ 54]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2023.04.15-18.41.09:233][ 54]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0,041
-[2023.04.15-18.41.09:234][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.15-18.41.10:292][178]Cmd: LevelEditor.ToggleImmersive
-[2023.04.15-18.41.10:478][183]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.44.42:770][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.15-18.44.42:770][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.15-18.44.42:833][978]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.15-18.44.42:833][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.15-18.44.42:856][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.15-18.44.42:874][979]LogWindows: LaunchURL http://docs.unrealengine.com/latest/POL/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
-[2023.04.15-18.44.42:878][979]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2023.04.15-18.44.44:549][ 61]Cmd: SELECT NONE
-[2023.04.15-18.44.45:901][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2023.04.15-18.44.47:243][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.15-18.44.50:809][791]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/PlayerPawn/Player.Player
-[2023.04.15-18.45.01:614][ 56]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/LevelTriggers/BPLevelRestartTrigger.BPLevelRestartTrigger
+[2023.04.18-20.26.30:754][  0]LogInit: Selected Device Profile: [Windows]
+[2023.04.18-20.26.30:754][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.04.18-20.26.30:763][  0]LogHAL: Display: Platform has ~ 16 GB [17114869760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.04.18-20.26.30:763][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2023.04.18-20.26.30:763][  0]LogInit: Going up to parent DeviceProfile []
+[2023.04.18-20.26.30:764][  0]LogInit: Computer: MICHAŁ
+[2023.04.18-20.26.30:764][  0]LogInit: User: PC
+[2023.04.18-20.26.30:764][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.04.18-20.26.30:764][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.04.18-20.26.30:764][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.04.18-20.26.30:764][  0]LogMemory: Platform Memory Stats for Windows
+[2023.04.18-20.26.30:764][  0]LogMemory: Process Physical Memory: 103.70 MB used, 103.70 MB peak
+[2023.04.18-20.26.30:764][  0]LogMemory: Process Virtual Memory: 85.97 MB used, 85.97 MB peak
+[2023.04.18-20.26.30:764][  0]LogMemory: Physical Memory: 10331.40 MB used,  5990.61 MB free, 16322.01 MB total
+[2023.04.18-20.26.30:764][  0]LogMemory: Virtual Memory: 4641.46 MB used,  5990.61 MB free, 134217728.00 MB total
+[2023.04.18-20.26.30:793][  0]LogInit: Using OS detected language (pl-PL).
+[2023.04.18-20.26.30:793][  0]LogInit: Using OS detected locale (pl-PL).
+[2023.04.18-20.26.30:793][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2023.04.18-20.26.30:794][  0]LogStreaming: Display: Took  0.001s to InitEngineTextLocalization.
+[2023.04.18-20.26.30:794][  0]LogInit: Setting process to per monitor DPI aware
+[2023.04.18-20.26.30:823][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.04.18-20.26.30:823][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.04.18-20.26.30:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.18-20.26.30:957][  0]LogD3D11RHI: D3D11 adapters:
+[2023.04.18-20.26.31:084][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2023.04.18-20.26.31:084][  0]LogD3D11RHI:       12129/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.04.18-20.26.31:085][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.04.18-20.26.31:085][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.04.18-20.26.31:085][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.04.18-20.26.31:092][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.04.18-20.26.31:092][  0]LogD3D11RHI:     GPU DeviceId: 0x2503 (for the marketing name, search the web for "GPU Device Id")
+[2023.04.18-20.26.31:092][  0]LogWindows: EnumDisplayDevices:
+[2023.04.18-20.26.31:093][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2023.04.18-20.26.31:093][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2023.04.18-20.26.31:093][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.04.18-20.26.31:093][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.04.18-20.26.31:093][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.04.18-20.26.31:093][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2023.04.18-20.26.31:093][  0]LogD3D11RHI:   Driver Version: 531.29 (internal:31.0.15.3129, unified:531.29)
+[2023.04.18-20.26.31:093][  0]LogD3D11RHI:      Driver Date: 3-8-2023
+[2023.04.18-20.26.31:093][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
+[2023.04.18-20.26.31:165][  0]LogD3D11RHI: Async texture creation enabled
+[2023.04.18-20.26.31:183][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.04.18-20.26.31:185][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Intermediate/Shaders/WorkingDirectory/11508/).
+[2023.04.18-20.26.31:185][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/2A2D3A0F4C488A7E373BB78DEC93E693/'.
+[2023.04.18-20.26.31:372][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.04.18-20.26.31:381][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.04.18-20.26.31:390][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.04.18-20.26.31:399][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.04.18-20.26.31:409][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.04.18-20.26.31:418][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.04.18-20.26.31:428][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.04.18-20.26.31:437][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.04.18-20.26.31:441][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:500][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.18-20.26.31:501][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.04.18-20.26.31:552][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.04.18-20.26.31:552][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.04.18-20.26.31:567][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.04.18-20.26.31:567][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.04.18-20.26.31:576][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.04.18-20.26.31:584][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.04.18-20.26.31:593][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.04.18-20.26.31:602][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.04.18-20.26.31:608][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2023.04.18-20.26.31:608][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.04.18-20.26.31:635][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.04.18-20.26.31:635][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.04.18-20.26.31:635][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.04.18-20.26.32:147][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.04.18-20.26.32:197][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.04.18-20.26.32:197][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2023.04.18-20.26.32:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.04.18-20.26.32:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.04.18-20.26.32:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.04.18-20.26.32:197][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.04.18-20.26.32:208][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.04.18-20.26.32:220][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.04.18-20.26.32:220][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.04.18-20.26.32:220][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.04.18-20.26.32:233][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.04.18-20.26.32:234][  0]LogSlate: Using FreeType 2.6.0
+[2023.04.18-20.26.32:234][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.04.18-20.26.32:292][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2023.04.18-20.26.32:511][  0]LogInit: Selected Device Profile: [Windows]
+[2023.04.18-20.26.32:599][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.04.18-20.26.32:601][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.04.18-20.26.32:601][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.04.18-20.26.32:601][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.04.18-20.26.32:601][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.04.18-20.26.32:611][  0]LogNetVersion: BallRunner 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 346235534)
+[2023.04.18-20.26.32:950][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.089319 seconds
+[2023.04.18-20.26.32:954][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2023.04.18-20.26.32:954][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2023.04.18-20.26.32:954][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.04.18-20.26.33:502][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.04.18-20.26.33:514][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.04.18-20.26.33:621][  0]SourceControl: Source control is disabled
+[2023.04.18-20.26.33:621][  0]SourceControl: Source control is disabled
+[2023.04.18-20.26.33:622][  0]SourceControl: Source control is disabled
+[2023.04.18-20.26.33:622][  0]SourceControl: Source control is disabled
+[2023.04.18-20.26.33:754][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.04.18-20.26.33:826][  0]LogOcInput: OculusInput pre-init called
+[2023.04.18-20.26.33:867][  0]LogEngine: Initializing Engine...
+[2023.04.18-20.26.33:868][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.18-20.26.33:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.04.18-20.26.33:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.04.18-20.26.33:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.04.18-20.26.33:869][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.04.18-20.26.34:004][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.04.18-20.26.34:010][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.04.18-20.26.34:044][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.04.18-20.26.34:074][  0]LogInit: FAudioDevice initialized.
+[2023.04.18-20.26.34:074][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.04.18-20.26.34:107][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.04.18-20.26.34:112][  0]LogInit: Texture streaming: Enabled
+[2023.04.18-20.26.34:120][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.04.18-20.26.34:127][  0]LogInit: Transaction tracking system initialized
+[2023.04.18-20.26.34:136][  0]BlueprintLog: New page: Editor Load
+[2023.04.18-20.26.34:170][  0]LocalizationService: Localization service is disabled
+[2023.04.18-20.26.34:332][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.04.18-20.26.34:332][  0]LogCook: Display: Mobile HDR setting 1
+[2023.04.18-20.26.34:332][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.04.18-20.26.34:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.04.18-20.26.34:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.04.18-20.26.34:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.04.18-20.26.34:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.04.18-20.26.34:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/' took 0.01s
+[2023.04.18-20.26.34:390][  0]SourceControl: Source control is disabled
+[2023.04.18-20.26.34:390][  0]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.04.18-20.26.34:391][  0]LightingResults: New page: Lighting Build
+[2023.04.18-20.26.34:392][  0]MapCheck: New page: Map Check
+[2023.04.18-20.26.34:392][  0]LightingResults: New page: Lighting Build
+[2023.04.18-20.26.34:790][  0]LogAIModule: Creating AISystem for world Level1
+[2023.04.18-20.26.34:803][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.18-20.26.34:823][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.18-20.26.34:857][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33,964ms to complete.
+[2023.04.18-20.26.34:857][  0]LogFileHelpers: Loading map 'Level1' took 0.467
+[2023.04.18-20.26.34:949][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.26.34:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.26.34:960][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.26.34:965][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.26.34:969][  0]LogCollectionManager: Loaded 0 collections in 0.000619 seconds
+[2023.04.18-20.26.35:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Collections/' took 0.01s
+[2023.04.18-20.26.35:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Developers/PC/Collections/' took 0.01s
+[2023.04.18-20.26.35:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Collections/' took 0.01s
+[2023.04.18-20.26.35:009][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.04.18-20.26.35:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2572 classes and 603 folders.
+[2023.04.18-20.26.35:019][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.18-20.26.35:180][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.18-20.26.35:196][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2023.04.18-20.26.35:244][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.04.18-20.26.35:245][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.04.18-20.26.35:252][  0]LogSlate: Took 0.004137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.04.18-20.26.35:310][  0]LogRenderer: Reallocating scene render targets to support 1304x700 Format 10 NumSamples 1 (Frame:1).
+[2023.04.18-20.26.35:481][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.18-20.26.35:481][  0]LogLoad: (Engine Initialization) Total time: 6.32 seconds
+[2023.04.18-20.26.35:481][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.04.18-20.26.35:506][  0]LogAssetRegistry: Asset discovery search completed in 3.2379 seconds
+[2023.04.18-20.26.35:508][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.04.18-20.26.35:508][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2023.04.18-20.26.35:509][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.04.18-20.26.35:539][  0]LogSlate: Took 0.001473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.18-20.26.36:497][114]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.18-20.26.40:879][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.18-20.26.42:323][671]LogEditorViewport: Clicking Background
+[2023.04.18-20.26.47:220][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.26.54:186][496]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Collectables/Crystal.Crystal
+[2023.04.18-20.26.54:556][496]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2023.04.18-20.26.55:108][496]LogSlate: Took 0.004673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.18-20.26.57:209][739]LogRenderer: Reallocating scene render targets to support 1304x900 Format 10 NumSamples 1 (Frame:1).
+[2023.04.18-20.26.59:001][951]LogSlate: Took 0.009099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.04.18-20.28.00:141][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:974][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.28.13:992][176]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2023.04.18-20.29.14:499][993]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.18-20.29.24:592][199]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.18-20.29.34:454][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.29.49:940][435]LogEditorTransaction: Undo Attach Component
+[2023.04.18-20.30.00:942][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.32.48:549][412]LogSlate: Window 'Crystal*' being destroyed
+[2023.04.18-20.32.48:858][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.32.50:173][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.32.50:221][612]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.18-20.32.50:229][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.32.50:229][612]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.18-20.32.50:231][612]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
+[2023.04.18-20.32.50:387][612]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2023.04.18-20.32.50:406][612]PIE: New page: PIE session: Level1 (19 kwi 2023, 00:32:50)
+[2023.04.18-20.32.50:406][612]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2023.04.18-20.32.50:413][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007305s)
+[2023.04.18-20.32.50:414][612]LogAIModule: Creating AISystem for world Level1
+[2023.04.18-20.32.50:414][612]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2023.04.18-20.32.50:414][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008049s)
+[2023.04.18-20.32.50:461][612]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.04.18-20.32.50:474][612]LogInit: FAudioDevice initialized.
+[2023.04.18-20.32.50:513][612]LogLoad: Game class is 'BPGameMode_C'
+[2023.04.18-20.32.50:516][612]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.18-22.32.50
+[2023.04.18-20.32.50:516][612]LogWorld: Bringing up level for play took: 0.001548
+[2023.04.18-20.32.50:534][612]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2023.04.18-20.32.50:535][612]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0,976
+[2023.04.18-20.32.50:535][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.32.58:125][521]LogNet: Browse: /Game/Levels/Level1
+[2023.04.18-20.32.58:125][521]LogLoad: LoadMap: /Game/Levels/Level1
+[2023.04.18-20.32.58:150][521]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2023.04.18-20.32.58:157][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006978s)
+[2023.04.18-20.32.58:157][521]LogAIModule: Creating AISystem for world Level1
+[2023.04.18-20.32.58:157][521]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2023.04.18-20.32.58:157][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.007546s)
+[2023.04.18-20.32.58:157][521]LogLoad: Game class is 'BPGameMode_C'
+[2023.04.18-20.32.58:159][521]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.18-22.32.58
+[2023.04.18-20.32.58:159][521]LogWorld: Bringing up level for play took: 0.001226
+[2023.04.18-20.32.58:160][521]LogLoad: Took 0.034190 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level1)
+[2023.04.18-20.33.04:054][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.33.04:054][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.33.04:085][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.18-20.33.04:085][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.33.04:106][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.33.04:160][233]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.04.18-20.33.39:497][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.18-20.33.40:955][544]LogEditorViewport: Clicking Background
+[2023.04.18-20.34.14:248][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.36.50:040][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.04.18-20.36.50:182][727]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Level1_Auto1AC9DB65C4A9952EFCFA28D9CCB2E7001.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
+[2023.04.18-20.36.50:184][727]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.166
+[2023.04.18-20.36.50:184][727]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.166
+[2023.04.18-20.36.50:186][727]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/Collectables/Crystal] ([1] browsable assets)...
+[2023.04.18-20.36.50:209][727]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Collectables/Crystal.Crystal]
+[2023.04.18-20.36.50:209][727]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Collectables/Crystal]
+[2023.04.18-20.36.50:228][727]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Crystal_Auto11D5F14984B1F7244C7EFA399632B618B.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/Actors/Collectables/Crystal_Auto1.uasset'
+[2023.04.18-20.36.50:229][727]LogFileHelpers: Auto-saving content packages took 0.044
+[2023.04.18-20.41.14:664][406]LogEditorTransaction: Undo Mouse Drag
+[2023.04.18-20.41.14:914][435]LogEditorTransaction: Undo Add Key(s)
+[2023.04.18-20.43.43:966][673]LogEditorTransaction: Undo Create Pin Link
+[2023.04.18-20.43.44:378][722]LogEditorTransaction: Undo Promote To Variable
+[2023.04.18-20.45.25:797][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.45.38:402][194]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.18-20.45.38:416][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.45.38:416][194]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.18-20.45.38:419][194]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
+[2023.04.18-20.45.38:620][194]LogPlayLevel: PlayLevel: Blueprint regeneration took 203 ms (1 blueprints)
+[2023.04.18-20.45.38:621][194]PIE: New page: PIE session: Level1 (19 kwi 2023, 00:45:38)
+[2023.04.18-20.45.38:621][194]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2023.04.18-20.45.38:629][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008244s)
+[2023.04.18-20.45.38:629][194]LogAIModule: Creating AISystem for world Level1
+[2023.04.18-20.45.38:629][194]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2023.04.18-20.45.38:629][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008887s)
+[2023.04.18-20.45.38:676][194]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.04.18-20.45.38:688][194]LogInit: FAudioDevice initialized.
+[2023.04.18-20.45.38:715][194]LogLoad: Game class is 'BPGameMode_C'
+[2023.04.18-20.45.38:717][194]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.18-22.45.38
+[2023.04.18-20.45.38:717][194]LogWorld: Bringing up level for play took: 0.001386
+[2023.04.18-20.45.38:730][194]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1,171
+[2023.04.18-20.45.38:730][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.45.53:067][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.45.53:067][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.45.53:102][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.18-20.45.53:102][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.45.53:125][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.45.53:170][918]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.04.18-20.45.53:862][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.18-20.47.04:329][714]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.18-20.47.04:341][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.47.04:341][714]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.18-20.47.04:345][714]LogPlayLevel: [PlayLevel] Compiling Crystal before play...
+[2023.04.18-20.47.04:476][714]LogPlayLevel: PlayLevel: Blueprint regeneration took 134 ms (1 blueprints)
+[2023.04.18-20.47.04:476][714]PIE: New page: PIE session: Level1 (19 kwi 2023, 00:47:04)
+[2023.04.18-20.47.04:476][714]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2023.04.18-20.47.04:484][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007499s)
+[2023.04.18-20.47.04:484][714]LogAIModule: Creating AISystem for world Level1
+[2023.04.18-20.47.04:484][714]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2023.04.18-20.47.04:484][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008073s)
+[2023.04.18-20.47.04:532][714]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.04.18-20.47.04:545][714]LogInit: FAudioDevice initialized.
+[2023.04.18-20.47.04:575][714]LogLoad: Game class is 'BPGameMode_C'
+[2023.04.18-20.47.04:577][714]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.18-22.47.04
+[2023.04.18-20.47.04:577][714]LogWorld: Bringing up level for play took: 0.001469
+[2023.04.18-20.47.04:590][714]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1,03
+[2023.04.18-20.47.04:590][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.47.17:166][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.47.17:167][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.47.17:200][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.18-20.47.17:200][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.18-20.47.17:223][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-20.47.17:268][226]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.04.18-20.47.42:838][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.04.18-20.47.42:971][937]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Level1_Auto2828EEA03429E365CAEB658A839472C14.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
+[2023.04.18-20.47.42:974][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.158
+[2023.04.18-20.47.42:974][937]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2023.04.18-20.47.42:977][937]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/Collectables/Crystal] ([1] browsable assets)...
+[2023.04.18-20.47.42:993][937]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Collectables/Crystal.Crystal]
+[2023.04.18-20.47.42:993][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Collectables/Crystal]
+[2023.04.18-20.47.43:016][937]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Crystal_Auto20502D9794D1822F4BD0001B77CF9CE99.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/Actors/Collectables/Crystal_Auto2.uasset'
+[2023.04.18-20.47.43:018][937]LogFileHelpers: Auto-saving content packages took 0.042
+[2023.04.18-21.00.00:258][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
