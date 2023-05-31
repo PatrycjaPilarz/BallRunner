@@ -1,4 +1,4 @@
-﻿Log file open, 04/30/23 11:00:47
+﻿Log file open, 05/31/23 12:03:53
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BallRunner
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.522042
+LogStats: Stats thread started at 0.542969
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.126s to configure plugins.
+LogStreaming: Display: Took  0.108s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,282 +147,270 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.04.30-09.00.47:412][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.30-09.00.47:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.04.30-09.00.47:422][  0]LogHAL: Display: Platform has ~ 16 GB [17114869760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.04.30-09.00.47:422][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2023.04.30-09.00.47:422][  0]LogInit: Going up to parent DeviceProfile []
-[2023.04.30-09.00.47:422][  0]LogInit: Computer: MICHAŁ
-[2023.04.30-09.00.47:422][  0]LogInit: User: PC
-[2023.04.30-09.00.47:422][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.04.30-09.00.47:422][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.04.30-09.00.47:422][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2023.04.30-09.00.47:422][  0]LogMemory: Platform Memory Stats for Windows
-[2023.04.30-09.00.47:422][  0]LogMemory: Process Physical Memory: 103.81 MB used, 103.81 MB peak
-[2023.04.30-09.00.47:422][  0]LogMemory: Process Virtual Memory: 86.02 MB used, 86.02 MB peak
-[2023.04.30-09.00.47:422][  0]LogMemory: Physical Memory: 9168.21 MB used,  7153.80 MB free, 16322.01 MB total
-[2023.04.30-09.00.47:422][  0]LogMemory: Virtual Memory: 4641.46 MB used,  7153.80 MB free, 134217728.00 MB total
-[2023.04.30-09.00.47:455][  0]LogInit: Using OS detected language (pl-PL).
-[2023.04.30-09.00.47:455][  0]LogInit: Using OS detected locale (pl-PL).
-[2023.04.30-09.00.47:456][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2023.04.30-09.00.47:457][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
-[2023.04.30-09.00.47:457][  0]LogInit: Setting process to per monitor DPI aware
-[2023.04.30-09.00.47:474][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.04.30-09.00.47:474][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.04.30-09.00.47:607][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.30-09.00.47:607][  0]LogD3D11RHI: D3D11 adapters:
-[2023.04.30-09.00.47:736][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
-[2023.04.30-09.00.47:736][  0]LogD3D11RHI:       12129/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.04.30-09.00.47:738][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.04.30-09.00.47:738][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.04.30-09.00.47:738][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.04.30-09.00.47:743][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.04.30-09.00.47:743][  0]LogD3D11RHI:     GPU DeviceId: 0x2503 (for the marketing name, search the web for "GPU Device Id")
-[2023.04.30-09.00.47:743][  0]LogWindows: EnumDisplayDevices:
-[2023.04.30-09.00.47:743][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
-[2023.04.30-09.00.47:743][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
-[2023.04.30-09.00.47:743][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.30-09.00.47:744][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.30-09.00.47:744][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.04.30-09.00.47:744][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
-[2023.04.30-09.00.47:744][  0]LogD3D11RHI:   Driver Version: 531.29 (internal:31.0.15.3129, unified:531.29)
-[2023.04.30-09.00.47:744][  0]LogD3D11RHI:      Driver Date: 3-8-2023
-[2023.04.30-09.00.47:744][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
-[2023.04.30-09.00.47:818][  0]LogD3D11RHI: Async texture creation enabled
-[2023.04.30-09.00.47:834][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.04.30-09.00.47:836][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Intermediate/Shaders/WorkingDirectory/16348/).
-[2023.04.30-09.00.47:836][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/A10DE1D34E9FBB7791154F8C7895371F/'.
-[2023.04.30-09.00.48:017][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.04.30-09.00.48:027][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.04.30-09.00.48:036][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.04.30-09.00.48:046][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.04.30-09.00.48:056][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.04.30-09.00.48:065][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.04.30-09.00.48:074][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.04.30-09.00.48:083][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.04.30-09.00.48:088][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.04.30-09.00.48:148][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.30-09.00.48:149][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.04.30-09.00.48:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.30-09.00.48:201][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.30-09.00.48:217][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.30-09.00.48:217][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.30-09.00.48:226][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.04.30-09.00.48:235][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.04.30-09.00.48:243][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.04.30-09.00.48:253][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.04.30-09.00.48:259][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2023.04.30-09.00.48:259][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.04.30-09.00.48:288][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.04.30-09.00.48:288][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.04.30-09.00.48:288][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.04.30-09.00.48:803][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.04.30-09.00.48:839][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.30-09.00.48:839][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2023.04.30-09.00.48:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.04.30-09.00.48:839][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.04.30-09.00.48:839][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.04.30-09.00.48:839][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.04.30-09.00.48:850][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.04.30-09.00.48:862][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.04.30-09.00.48:862][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.04.30-09.00.48:862][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.04.30-09.00.48:875][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.04.30-09.00.48:876][  0]LogSlate: Using FreeType 2.6.0
-[2023.04.30-09.00.48:876][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.04.30-09.00.48:933][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2023.04.30-09.00.49:152][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.30-09.00.49:237][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.04.30-09.00.49:239][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.04.30-09.00.49:239][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.04.30-09.00.49:239][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.04.30-09.00.49:239][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.04.30-09.00.49:249][  0]LogNetVersion: BallRunner 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 346235534)
-[2023.04.30-09.00.49:611][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.093101 seconds
-[2023.04.30-09.00.49:615][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2023.04.30-09.00.49:615][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2023.04.30-09.00.49:615][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.04.30-09.00.50:177][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.04.30-09.00.50:190][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.04.30-09.00.50:301][  0]SourceControl: Source control is disabled
-[2023.04.30-09.00.50:301][  0]SourceControl: Source control is disabled
-[2023.04.30-09.00.50:302][  0]SourceControl: Source control is disabled
-[2023.04.30-09.00.50:302][  0]SourceControl: Source control is disabled
-[2023.04.30-09.00.50:436][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.04.30-09.00.50:509][  0]LogOcInput: OculusInput pre-init called
-[2023.04.30-09.00.50:551][  0]LogEngine: Initializing Engine...
-[2023.04.30-09.00.50:551][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.30-09.00.50:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.30-09.00.50:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.30-09.00.50:553][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.30-09.00.50:553][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.30-09.00.50:691][  0]LogInit: Initializing FReadOnlyCVARCache
-[2023.04.30-09.00.50:696][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.04.30-09.00.50:729][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.04.30-09.00.50:746][  0]LogInit: FAudioDevice initialized.
-[2023.04.30-09.00.50:746][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2023.04.30-09.00.50:777][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.30-09.00.50:780][  0]LogInit: Texture streaming: Enabled
-[2023.04.30-09.00.50:788][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.04.30-09.00.50:795][  0]LogInit: Transaction tracking system initialized
-[2023.04.30-09.00.50:803][  0]BlueprintLog: New page: Editor Load
-[2023.04.30-09.00.50:837][  0]LocalizationService: Localization service is disabled
-[2023.04.30-09.00.51:004][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.04.30-09.00.51:004][  0]LogCook: Display: Mobile HDR setting 1
-[2023.04.30-09.00.51:004][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.04.30-09.00.51:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.30-09.00.51:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.30-09.00.51:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.30-09.00.51:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.30-09.00.51:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/' took 0.01s
-[2023.04.30-09.00.51:068][  0]SourceControl: Source control is disabled
-[2023.04.30-09.00.51:069][  0]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.04.30-09.00.51:069][  0]LightingResults: New page: Lighting Build
-[2023.04.30-09.00.51:070][  0]MapCheck: New page: Map Check
-[2023.04.30-09.00.51:070][  0]LightingResults: New page: Lighting Build
-[2023.04.30-09.00.51:513][  0]LogAIModule: Creating AISystem for world Level1
-[2023.04.30-09.00.51:530][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.04.30-09.00.51:551][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.04.30-09.00.51:588][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36,928ms to complete.
-[2023.04.30-09.00.51:588][  0]LogFileHelpers: Loading map 'Level1' took 0.519
-[2023.04.30-09.00.51:693][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.00.51:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.00.51:704][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.00.51:709][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.00.51:719][  0]LogCollectionManager: Loaded 0 collections in 0.000604 seconds
-[2023.04.30-09.00.51:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Collections/' took 0.01s
-[2023.04.30-09.00.51:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Developers/PC/Collections/' took 0.01s
-[2023.04.30-09.00.51:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Collections/' took 0.01s
-[2023.04.30-09.00.51:773][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.04.30-09.00.51:783][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2572 classes and 603 folders.
-[2023.04.30-09.00.51:793][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2023.04.30-09.00.51:879][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.30-09.00.51:889][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2023.04.30-09.00.52:015][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.04.30-09.00.52:016][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.04.30-09.00.52:022][  0]LogSlate: Took 0.001545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.04.30-09.00.52:086][  0]LogRenderer: Reallocating scene render targets to support 1304x700 Format 10 NumSamples 1 (Frame:1).
-[2023.04.30-09.00.52:191][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.30-09.00.52:191][  0]LogLoad: (Engine Initialization) Total time: 6.37 seconds
-[2023.04.30-09.00.52:191][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.04.30-09.00.52:223][  0]LogAssetRegistry: Asset discovery search completed in 3.3124 seconds
-[2023.04.30-09.00.52:224][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.04.30-09.00.52:224][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
-[2023.04.30-09.00.52:226][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.04.30-09.00.52:250][  0]LogSlate: Took 0.001631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.30-09.00.53:541][  4]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.30-09.01.42:729][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.01.42:778][408]LogTemp: Repeating last play command: Simulate
-[2023.04.30-09.01.42:793][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.01.42:793][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.04.30-09.01.42:807][408]PIE: New page: SIE session: Level1 (30 kwi 2023, 13:01:42)
-[2023.04.30-09.01.42:807][408]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.30-09.01.42:817][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010202s)
-[2023.04.30-09.01.42:817][408]LogAIModule: Creating AISystem for world Level1
-[2023.04.30-09.01.42:817][408]LogPlayLevel: PIE: World Init took: (0.000488s)
-[2023.04.30-09.01.42:817][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.010788s)
-[2023.04.30-09.01.42:863][408]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.04.30-09.01.42:876][408]LogInit: FAudioDevice initialized.
-[2023.04.30-09.01.42:918][408]LogLoad: Game class is 'BPGameMode_C'
-[2023.04.30-09.01.42:921][408]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.30-11.01.42
-[2023.04.30-09.01.42:922][408]LogWorld: Bringing up level for play took: 0.002498
-[2023.04.30-09.01.42:941][408]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
-[2023.04.30-09.01.42:942][408]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0,25
-[2023.04.30-09.01.42:949][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.01.46:919][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.01.46:987][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.01.46:989][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.01.47:021][879]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.30-09.01.47:022][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.01.47:041][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.01.47:091][885]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2023.04.30-09.01.59:181][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.01.59:313][271]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Cannon/BP_Cannon.BP_Cannon
-[2023.04.30-09.01.59:691][271]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2023.04.30-09.02.00:246][271]LogSlate: Took 0.001421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.04.30-09.02.00:304][272]LogSlate: Took 0.001366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.04.30-09.02.03:572][424]LogRenderer: Reallocating scene render targets to support 1304x712 Format 10 NumSamples 1 (Frame:1).
-[2023.04.30-09.02.07:018][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.02.09:264][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.02.11:420][161]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Cannon/BP_Cannon.BP_Cannon
-[2023.04.30-09.04.11:744][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.09.35:090][339]LogEditorTransaction: Undo Create Pin Link
-[2023.04.30-09.09.50:067][903]LogTemp: Repeating last play command: Simulate
-[2023.04.30-09.09.50:075][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.09.50:076][903]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.30-09.09.50:079][903]LogPlayLevel: [PlayLevel] Compiling BP_Cannon before play...
-[2023.04.30-09.09.50:226][903]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
-[2023.04.30-09.09.50:226][903]PIE: New page: SIE session: Level1 (30 kwi 2023, 13:09:50)
-[2023.04.30-09.09.50:226][903]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.30-09.09.50:234][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008463s)
-[2023.04.30-09.09.50:235][903]LogAIModule: Creating AISystem for world Level1
-[2023.04.30-09.09.50:235][903]LogPlayLevel: PIE: World Init took: (0.000533s)
-[2023.04.30-09.09.50:235][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.009090s)
-[2023.04.30-09.09.50:284][903]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.04.30-09.09.50:298][903]LogInit: FAudioDevice initialized.
-[2023.04.30-09.09.50:326][903]LogLoad: Game class is 'BPGameMode_C'
-[2023.04.30-09.09.50:328][903]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.30-11.09.50
-[2023.04.30-09.09.50:328][903]LogWorld: Bringing up level for play took: 0.001864
-[2023.04.30-09.09.50:340][903]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1,147
-[2023.04.30-09.09.50:341][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.00:801][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.10.00:860][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.00:860][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.10.00:891][132]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.30-09.10.00:891][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.00:916][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.10.00:961][137]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2023.04.30-09.10.24:050][904]LogTemp: Repeating last play command: Simulate
-[2023.04.30-09.10.24:062][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.24:062][904]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.30-09.10.24:065][904]LogPlayLevel: [PlayLevel] Compiling BP_Cannon before play...
-[2023.04.30-09.10.24:191][904]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
-[2023.04.30-09.10.24:191][904]PIE: New page: SIE session: Level1 (30 kwi 2023, 13:10:24)
-[2023.04.30-09.10.24:192][904]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.30-09.10.24:200][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008403s)
-[2023.04.30-09.10.24:200][904]LogAIModule: Creating AISystem for world Level1
-[2023.04.30-09.10.24:200][904]LogPlayLevel: PIE: World Init took: (0.000457s)
-[2023.04.30-09.10.24:201][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.008944s)
-[2023.04.30-09.10.24:246][904]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.04.30-09.10.24:259][904]LogInit: FAudioDevice initialized.
-[2023.04.30-09.10.24:288][904]LogLoad: Game class is 'BPGameMode_C'
-[2023.04.30-09.10.24:291][904]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.30-11.10.24
-[2023.04.30-09.10.24:291][904]LogWorld: Bringing up level for play took: 0.001787
-[2023.04.30-09.10.24:302][904]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1,11
-[2023.04.30-09.10.24:304][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.44:667][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.30-09.10.44:718][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.44:718][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.10.44:750][335]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.30-09.10.44:750][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.30-09.10.44:775][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.30-09.10.44:820][340]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2023.04.30-09.11.28:089][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2023.04.30-09.11.28:259][632]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Level1_Auto1B7183D4840232C11106BF9907A91B3C9.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
-[2023.04.30-09.11.28:266][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.205
-[2023.04.30-09.11.28:266][632]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.205
-[2023.04.30-09.11.28:267][632]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/Cannon/BP_Cannon] ([1] browsable assets)...
-[2023.04.30-09.11.28:286][632]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Cannon/BP_Cannon.BP_Cannon]
-[2023.04.30-09.11.28:286][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Cannon/BP_Cannon]
-[2023.04.30-09.11.28:312][632]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/BP_Cannon_Auto1A9E207AE4275FB14B65B8A9FA4D7BFCA.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Autosaves/Game/Blueprints/Actors/Cannon/BP_Cannon_Auto1.uasset'
-[2023.04.30-09.11.28:314][632]LogFileHelpers: Auto-saving content packages took 0.048
+[2023.05.31-10.03.53:825][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.31-10.03.53:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.05.31-10.03.53:831][  0]LogHAL: Display: Platform has ~ 16 GB [17114869760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.05.31-10.03.53:831][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2023.05.31-10.03.53:831][  0]LogInit: Going up to parent DeviceProfile []
+[2023.05.31-10.03.53:831][  0]LogInit: Computer: MICHAŁ
+[2023.05.31-10.03.53:831][  0]LogInit: User: PC
+[2023.05.31-10.03.53:831][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.05.31-10.03.53:831][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.05.31-10.03.53:831][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.05.31-10.03.53:831][  0]LogMemory: Platform Memory Stats for Windows
+[2023.05.31-10.03.53:831][  0]LogMemory: Process Physical Memory: 104.04 MB used, 104.04 MB peak
+[2023.05.31-10.03.53:831][  0]LogMemory: Process Virtual Memory: 86.02 MB used, 86.02 MB peak
+[2023.05.31-10.03.53:831][  0]LogMemory: Physical Memory: 7953.97 MB used,  8368.04 MB free, 16322.01 MB total
+[2023.05.31-10.03.53:832][  0]LogMemory: Virtual Memory: 4641.63 MB used,  8368.04 MB free, 134217728.00 MB total
+[2023.05.31-10.03.53:860][  0]LogInit: Using OS detected language (pl-PL).
+[2023.05.31-10.03.53:860][  0]LogInit: Using OS detected locale (pl-PL).
+[2023.05.31-10.03.53:861][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2023.05.31-10.03.53:861][  0]LogStreaming: Display: Took  0.001s to InitEngineTextLocalization.
+[2023.05.31-10.03.53:862][  0]LogInit: Setting process to per monitor DPI aware
+[2023.05.31-10.03.53:883][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.05.31-10.03.53:883][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.05.31-10.03.54:015][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.05.31-10.03.54:015][  0]LogD3D11RHI: D3D11 adapters:
+[2023.05.31-10.03.54:131][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2023.05.31-10.03.54:131][  0]LogD3D11RHI:       12129/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.05.31-10.03.54:133][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.05.31-10.03.54:133][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.05.31-10.03.54:133][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.05.31-10.03.54:137][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.05.31-10.03.54:137][  0]LogD3D11RHI:     GPU DeviceId: 0x2503 (for the marketing name, search the web for "GPU Device Id")
+[2023.05.31-10.03.54:137][  0]LogWindows: EnumDisplayDevices:
+[2023.05.31-10.03.54:137][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2023.05.31-10.03.54:138][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2023.05.31-10.03.54:138][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.05.31-10.03.54:138][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.05.31-10.03.54:138][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.05.31-10.03.54:138][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2023.05.31-10.03.54:138][  0]LogD3D11RHI:   Driver Version: 531.29 (internal:31.0.15.3129, unified:531.29)
+[2023.05.31-10.03.54:138][  0]LogD3D11RHI:      Driver Date: 3-8-2023
+[2023.05.31-10.03.54:138][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
+[2023.05.31-10.03.54:214][  0]LogD3D11RHI: Async texture creation enabled
+[2023.05.31-10.03.54:226][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.05.31-10.03.54:228][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Intermediate/Shaders/WorkingDirectory/6308/).
+[2023.05.31-10.03.54:228][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/CE5074974959AC6EFB34868CAA54288C/'.
+[2023.05.31-10.03.54:424][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.05.31-10.03.54:433][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.05.31-10.03.54:442][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.05.31-10.03.54:451][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.05.31-10.03.54:460][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.05.31-10.03.54:469][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.05.31-10.03.54:478][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.05.31-10.03.54:487][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.05.31-10.03.54:491][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.31-10.03.54:549][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.05.31-10.03.54:599][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.05.31-10.03.54:599][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.05.31-10.03.54:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.05.31-10.03.54:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.05.31-10.03.54:623][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.05.31-10.03.54:632][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.05.31-10.03.54:640][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.05.31-10.03.54:649][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.05.31-10.03.54:655][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2023.05.31-10.03.54:655][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.05.31-10.03.54:681][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.05.31-10.03.54:681][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.05.31-10.03.54:681][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.05.31-10.03.55:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.05.31-10.03.55:233][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.05.31-10.03.55:234][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2023.05.31-10.03.55:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.05.31-10.03.55:234][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.05.31-10.03.55:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.31-10.03.55:234][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.05.31-10.03.55:244][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.05.31-10.03.55:257][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.05.31-10.03.55:257][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.05.31-10.03.55:257][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.05.31-10.03.55:270][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.05.31-10.03.55:271][  0]LogSlate: Using FreeType 2.6.0
+[2023.05.31-10.03.55:271][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.31-10.03.55:328][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2023.05.31-10.03.55:548][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.31-10.03.55:631][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.05.31-10.03.55:633][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.05.31-10.03.55:633][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.05.31-10.03.55:633][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.05.31-10.03.55:633][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.05.31-10.03.55:642][  0]LogNetVersion: BallRunner 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 346235534)
+[2023.05.31-10.03.55:973][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.075439 seconds
+[2023.05.31-10.03.55:977][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2023.05.31-10.03.55:977][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2023.05.31-10.03.55:977][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.05.31-10.03.56:523][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.05.31-10.03.56:535][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.05.31-10.03.56:645][  0]SourceControl: Source control is disabled
+[2023.05.31-10.03.56:646][  0]SourceControl: Source control is disabled
+[2023.05.31-10.03.56:646][  0]SourceControl: Source control is disabled
+[2023.05.31-10.03.56:647][  0]SourceControl: Source control is disabled
+[2023.05.31-10.03.56:779][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.05.31-10.03.56:852][  0]LogOcInput: OculusInput pre-init called
+[2023.05.31-10.03.56:893][  0]LogEngine: Initializing Engine...
+[2023.05.31-10.03.56:894][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.05.31-10.03.56:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.05.31-10.03.56:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.05.31-10.03.56:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.05.31-10.03.56:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.05.31-10.03.57:037][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.05.31-10.03.57:043][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.05.31-10.03.57:077][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2023.05.31-10.03.57:115][  0]LogInit: FAudioDevice initialized.
+[2023.05.31-10.03.57:116][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.05.31-10.03.57:147][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.05.31-10.03.57:152][  0]LogInit: Texture streaming: Enabled
+[2023.05.31-10.03.57:159][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.05.31-10.03.57:166][  0]LogInit: Transaction tracking system initialized
+[2023.05.31-10.03.57:174][  0]BlueprintLog: New page: Editor Load
+[2023.05.31-10.03.57:208][  0]LocalizationService: Localization service is disabled
+[2023.05.31-10.03.57:373][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.05.31-10.03.57:373][  0]LogCook: Display: Mobile HDR setting 1
+[2023.05.31-10.03.57:373][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.05.31-10.03.57:373][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.05.31-10.03.57:373][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.05.31-10.03.57:373][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.05.31-10.03.57:373][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.05.31-10.03.57:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/' took 0.01s
+[2023.05.31-10.03.57:431][  0]SourceControl: Source control is disabled
+[2023.05.31-10.03.57:432][  0]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.31-10.03.57:432][  0]LightingResults: New page: Lighting Build
+[2023.05.31-10.03.57:433][  0]MapCheck: New page: Map Check
+[2023.05.31-10.03.57:433][  0]LightingResults: New page: Lighting Build
+[2023.05.31-10.03.57:701][  0]LogAIModule: Creating AISystem for world Level1
+[2023.05.31-10.03.57:749][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.31-10.03.57:767][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.31-10.03.57:802][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34,964ms to complete.
+[2023.05.31-10.03.57:802][  0]LogFileHelpers: Loading map 'Level1' took 0.370
+[2023.05.31-10.03.57:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.31-10.03.57:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.31-10.03.57:900][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.31-10.03.57:905][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.31-10.03.57:908][  0]LogCollectionManager: Loaded 0 collections in 0.000579 seconds
+[2023.05.31-10.03.57:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Collections/' took 0.01s
+[2023.05.31-10.03.57:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Developers/PC/Collections/' took 0.01s
+[2023.05.31-10.03.57:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Collections/' took 0.01s
+[2023.05.31-10.03.57:947][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.05.31-10.03.57:954][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2572 classes and 603 folders.
+[2023.05.31-10.03.57:957][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.05.31-10.03.57:980][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.05.31-10.03.57:983][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2023.05.31-10.03.58:031][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.31-10.03.58:032][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.31-10.03.58:035][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.31-10.03.58:090][  0]LogRenderer: Reallocating scene render targets to support 1304x700 Format 10 NumSamples 1 (Frame:1).
+[2023.05.31-10.03.58:232][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.05.31-10.03.58:232][  0]LogLoad: (Engine Initialization) Total time: 5.99 seconds
+[2023.05.31-10.03.58:232][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.05.31-10.03.58:259][  0]LogAssetRegistry: Asset discovery search completed in 2.9532 seconds
+[2023.05.31-10.03.58:260][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.05.31-10.03.58:260][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2023.05.31-10.03.58:261][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.05.31-10.03.58:371][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.31-10.04.00:311][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.04.00:431][246]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.31-10.04.00:435][246]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Level1.Level1
+[2023.05.31-10.04.00:458][246]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.31-10.04.00:458][246]LightingResults: New page: Lighting Build
+[2023.05.31-10.04.00:458][246]LoadErrors: New page: Loading map: Level1.umap
+[2023.05.31-10.04.00:460][246]MapCheck: New page: Map Check
+[2023.05.31-10.04.00:460][246]LightingResults: New page: Lighting Build
+[2023.05.31-10.04.00:516][246]LogAIModule: Creating AISystem for world Level1
+[2023.05.31-10.04.00:608][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.31-10.04.00:641][246]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.31-10.04.00:677][246]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36,308ms to complete.
+[2023.05.31-10.04.00:678][246]LogFileHelpers: Loading map 'Level1' took 0.221
+[2023.05.31-10.04.08:396][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.04.11:371][416]LogEditorViewport: Clicking Background
+[2023.05.31-10.04.12:024][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.04.26:566][186]LogEditorViewport: Clicking Background
+[2023.05.31-10.04.34:741][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.04.39:962][731]LogGeometryMode: Warning: Unable to find BoxBrush5 Brush(s) in new BSP
+[2023.05.31-10.04.39:962][731]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.05.31-10.04.41:971][956]LogEditorViewport: Clicking Background
+[2023.05.31-10.04.46:037][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.04.48:508][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2023.05.31-10.04.48:511][718]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2023.05.31-10.04.51:408][ 63]LogEditorViewport: Clicking Background
+[2023.05.31-10.04.55:079][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.04.57:503][788]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.04.57:550][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.31-10.04.57:802][788]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Saved/Level1200378E0478DE6E24AA6B28D6BE7712F.tmp' to 'C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap'
+[2023.05.31-10.04.57:818][788]LogFileHelpers: Saving map 'Level1' took 0.308
+[2023.05.31-10.05.03:866][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.05.04:024][507]LogAIModule: Creating AISystem for world Level2
+[2023.05.31-10.05.04:052][507]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Level2.Level2
+[2023.05.31-10.05.04:074][507]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.31-10.05.04:074][507]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.04:075][507]LoadErrors: New page: Loading map: Level2.umap
+[2023.05.31-10.05.04:076][507]MapCheck: New page: Map Check
+[2023.05.31-10.05.04:076][507]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.04:189][507]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.31-10.05.04:219][507]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.31-10.05.04:259][507]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40,137ms to complete.
+[2023.05.31-10.05.04:260][507]LogFileHelpers: Loading map 'Level2' took 0.187
+[2023.05.31-10.05.08:055][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.05.08:404][991]LogAIModule: Creating AISystem for world Level1
+[2023.05.31-10.05.08:434][991]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Level1.Level1
+[2023.05.31-10.05.08:452][991]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.31-10.05.08:453][991]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.08:453][991]LoadErrors: New page: Loading map: Level1.umap
+[2023.05.31-10.05.08:454][991]MapCheck: New page: Map Check
+[2023.05.31-10.05.08:454][991]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.08:565][991]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.31-10.05.08:596][991]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.31-10.05.08:636][991]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39,683ms to complete.
+[2023.05.31-10.05.08:637][991]LogFileHelpers: Loading map 'Level1' took 0.185
+[2023.05.31-10.05.23:304][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.05.23:745][794]LogAIModule: Creating AISystem for world Level2
+[2023.05.31-10.05.23:773][794]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Level2.Level2
+[2023.05.31-10.05.23:794][794]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.31-10.05.23:794][794]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.23:795][794]LoadErrors: New page: Loading map: Level2.umap
+[2023.05.31-10.05.23:796][794]MapCheck: New page: Map Check
+[2023.05.31-10.05.23:796][794]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.23:914][794]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.31-10.05.23:945][794]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.31-10.05.23:986][794]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41,006ms to complete.
+[2023.05.31-10.05.23:987][794]LogFileHelpers: Loading map 'Level2' took 0.193
+[2023.05.31-10.05.25:215][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.05.27:904][259]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.05.28:242][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.05.28:573][338]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.05.29:169][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.05.31-10.05.32:090][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.05.31-10.05.32:280][776]LogAIModule: Creating AISystem for world Level1
+[2023.05.31-10.05.32:310][776]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Level1.Level1
+[2023.05.31-10.05.32:331][776]Cmd: MAP LOAD FILE="C:/Users/PC/Documents/GitHub/BallRunner/BallRunner/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.31-10.05.32:332][776]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.32:332][776]LoadErrors: New page: Loading map: Level1.umap
+[2023.05.31-10.05.32:333][776]MapCheck: New page: Map Check
+[2023.05.31-10.05.32:333][776]LightingResults: New page: Lighting Build
+[2023.05.31-10.05.32:445][776]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.31-10.05.32:476][776]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.31-10.05.32:516][776]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40,375ms to complete.
+[2023.05.31-10.05.32:517][776]LogFileHelpers: Loading map 'Level1' took 0.186
+[2023.05.31-10.06.01:564][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
